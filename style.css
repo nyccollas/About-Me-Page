@@ -1,0 +1,115 @@
+ body{
+    background-color: #F6F6F9;
+}
+
+h1{
+    text-align: center;
+    color: #125F52;
+}
+
+h3{
+    margin-top: 0px;
+    color: #1B9C85
+}
+
+p{
+    font-size: large;
+    text-align: justify;
+}
+
+table{
+    margin-left: 20px;
+    padding: 10px;
+    border-collapse: separate;
+    border-spacing: 12px 8px;
+    border: 2px solid #125F52;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+table th:nth-child(1), 
+table td:nth-child(1){
+    text-align: center;
+}
+
+table th:nth-child(2),
+table td:nth-child(2){
+    padding-left: 20px;
+    text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #125F52;
+  text-decoration: underline;
+  letter-spacing: 0.5px;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tela-dividida{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.painel-esquerdo, .painel-direito{
+    box-sizing: border-box;
+}
+
+.painel-esquerdo{
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.painel-direito{
+    width: 500px;
+    padding: 5px 0px 0px 30px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.painel-direito img{
+    width: auto;
+    max-width: 100%;
+    height: 530px;
+    object-fit: cover;
+    border-radius: 30px;
+    display: block;
+}
+
+.link{
+    text-align: center;
+}
+
+#button-area, #mensagem{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#button{
+    background-color: #1B9C85;
+    color: white;
+    padding: 10px 20px;
+    border-color: #125F52;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#button:hover {
+  background-color: #125F52;
+}
